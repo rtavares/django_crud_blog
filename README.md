@@ -1,10 +1,21 @@
-Demo to show how to quickly create a CRUD - Blog app - in Django, using Class Based Generic Views.  
--- Using materialize for styling.
+### Demo to show how to quickly create a CRUD - Blog app - in Django.  
+#### - Using Class Based Generic Views.  
+#### - Using materialize for styling.
 
-Based on tutorials:  
+#### Based on tutorials:  
 	- https://scotch.io/@CleverProgrammer/how-to-make-a-django-blog-app  	
     - https://www.techiediaries.com/django-crud-generic-views/  
 
+#### Get started:
+- Create a virtualenv  
+- Clone the  project
+- Run:  
+-- manage.py makemigrations  
+-- manage.py migrate  
+-- manage.py createsuperuser  
+- Run the project
+- Login to /admin
+- Display home page
 
 TODO's:
 - Once this is just a proof of concept, several things were left out:  
