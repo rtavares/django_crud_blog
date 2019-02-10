@@ -10,10 +10,12 @@
 - Create a virtualenv  
 - Clone the  project
 - Run:  
--- manage.py makemigrations  
--- manage.py migrate  
--- manage.py createsuperuser  
-- Run the project
+-- pip install -r requirements.txt  
+-- ./manage.py makemigrations  
+-- ./manage.py migrate  
+-- ./manage.py createsuperuser  
+- Run the project  
+-- ./manage.py runserver
 - Login to /admin
 - Display home page
 
